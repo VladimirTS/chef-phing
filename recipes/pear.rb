@@ -34,4 +34,5 @@ php_pear "phing" do
   version node["phing"]["version"]
   channel channel.channel_name
   action :install
+  shell_timeout 9000
 end
